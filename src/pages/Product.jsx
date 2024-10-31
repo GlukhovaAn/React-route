@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import styles from "./App.module.css";
+import React from 'react';
 import { Header } from "../components/header/Header";
 import { Footer } from "../components/footer/Footer";
 import { useParams } from "react-router-dom";
