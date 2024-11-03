@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function ServiceItem({ text, prise, id, image, rating, setData }) {
   return (
-    <Link to={`/products/${id}`}>
+    <Link to={`/React-route/products/${id}`}>
       <div
         className={styles.card}
         onDoubleClick={() =>

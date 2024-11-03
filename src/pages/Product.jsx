@@ -42,7 +42,7 @@ export function Product() {
       )}
       <button
         onClick={() => {
-          navigate("/products");
+          navigate("/React-route/products");
         }}
       >
         НАЗАД
