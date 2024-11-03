@@ -6,15 +6,15 @@ import { Product } from "./pages/Product";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/React-route/",
     element: <Products />,
   },
   {
-    path: "/products",
+    path: "/React-route/products",
     element: <Products />,
   },
   {
-    path: "/products/:id",
+    path: "/React-route/products/:id",
     element: <Product />,
   },
 ]);
