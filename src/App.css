@@ -87,3 +87,6 @@
   outline: 2px solid black;
   box-shadow: 5px 5px 10px black;
 }
+body {
+  background-color: #d638ac;
+}
